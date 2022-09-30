@@ -1,6 +1,3 @@
-test:
-	ansible-playbook ansible/playbooks/ping.yml
-
 run:
 	REPO_SLUG=autochecks-html ansible-playbook ansible/playbooks/build-image.yml
 
