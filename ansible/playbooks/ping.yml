@@ -1,8 +1,0 @@
-- name: Hello
-  hosts: localhost
-  tasks:
-    - debug:
-        msg: "Hello debug"
-      name: "Hello there"
-    - debug:
-        msg: "Running in {{ lookup('ansible.builtin.env', 'PWD') }}"
